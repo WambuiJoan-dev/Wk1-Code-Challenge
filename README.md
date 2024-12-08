@@ -1,10 +1,37 @@
-# Wk1-Code-Challenge
-This project contains Wk1-Code Challenge
-It contains three files namely;
+# week-1-code-challenge
 
-1. studentGradeGenerator.js - This is a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
-            A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+# GRADE GENERATOR
+File: grade.js
+This program prompts the user to input a student's marks (0 - 100) and outputs the corresponding grade:
 
-2. speedDetector.js - a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+Marks Range	Grade
+Above 79	A
+60 - 79	    B
+49 - 59	    C
+40 - 49	    D
+Below 40	E
+//How to Use:
+Run the script and input marks when prompted.
 
-3. netSalaryCalculator.js - a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+
+# SPEED DETECTOR
+File: speed.js
+This program evaluates the speed of a car and determines whether it's within the speed limit or assigns demerit points for exceeding it.
+
+Speed Limit: 70 km/h
+Rules:
+Speeds ≤ 70: Outputs "Ok".
+Every 5 km/h above 70 adds 1 demerit point.
+More than 12 points: Outputs "License suspended".
+//How to Use:
+Run the script and input the car's speed when prompted.
+
+
+# NET SALARY CALCULATOR
+File: salary.js
+This program calculates an individual's net salary based on their basic salary and benefits. It includes deductions for:`-BN`
+        PAYE Tax based on KRA rates.
+        NHIF Deductions based on gross salary.
+        NSSF Deductions capped at 6% of gross salary or 1800.
+//How to Use:
+Run the script and input the basic salary and benefits when prompted.
